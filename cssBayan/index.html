@@ -4,9 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="favicon.ico">    
+    <link rel="stylesheet" href="style.css">
+    <title>cssBayan</title>
 </head>
 <body>
-    
+    <h1>CSS Bayan</h1>
+<div class="accordion">
+        <!-- span to target fix closing accordion -->
+        <span class="target-fix" id="accordion"></span>
+         
+        <div>
+            <!-- span to target fix accordion -->
+            <span class="target-fix" id="accordion1"></span>
+            
+            <!-- link to open accordion, hidden when open --> 
+            <a href="#accordion1" id="open-accordion1">Meme #1</a>
+            
+            <!-- link to close accordion, hidden when closed -->
+            <a href="#accordion" id="close-accordion1">Meme #1</a> 
+            
+            <!-- accordion content goes in this div -->
+            <div class="accordion-content">
+                <a href="#accordion1"><img src="pic1.jpg" alt=""></a>   
+            </div>
+        </div>
+
+        <div>
+            <span class="target-fix" id="accordion2"></span>
+            <a href="#accordion2" id="open-accordion2">Meme #2</a>
+            <a href="#accordion" id="close-accordion2">Meme #2</a>
+            <div class="accordion-content">
+                <a href="#accordion2"><img src="pic2.jpg" alt=""></a>  
+            </div>
+        </div>
+
+        <div>
+            <span class="target-fix" id="accordion3"></span>
+            <a href="#accordion3" id="open-accordion3">Meme #3</a>
+            <a href="#accordion" id="close-accordion3">Meme #3</a>
+            <div class="accordion-content">
+                <a href="#accordion3"><img src="pic3.jpg" alt=""></a>    
+            </div>
+        </div>
+
+        <div>
+        <span class="target-fix" id="accordion4"></span>
+        <a href="#accordion4" id="open-accordion4">Meme #4</a>
+        <a href="#accordion" id="close-accordion4">Meme #4</a>
+        <div class="accordion-content">
+            <a href="#accordion4"><img src="pic4.jpg" alt=""></a>  
+        </div>
+        </div>
+
+        <div>
+        <span class="target-fix" id="accordion5"></span>
+        <a href="#accordion5" id="open-accordion5">Meme #5</a>
+        <a href="#accordion" id="close-accordion5">Meme #5</a>
+        <div class="accordion-content">
+            <a href="#accordion5"><img src="pic5.jpg" alt=""></a>   
+        </div>
+        </div>
+    </div>
 </body>
 </html>
