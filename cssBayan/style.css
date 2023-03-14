@@ -12,15 +12,15 @@ body {
 }
 
 body:hover {
-    cursor: url(./cursor-hover-body.png), pointer;
+    cursor: url(./img/cursor-hover-body.png), pointer;
   }
 
 .label:hover {
-    cursor: url(./cursor-hover.png), pointer;
+    cursor: url(./img/cursor-hover.png), pointer;
 }
 
 .label:active {
-  cursor: url(./cursor-click.png), pointer;
+  cursor: url(./img/cursor-click.png), pointer;
 }
 
 .main {
